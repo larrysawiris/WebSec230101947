@@ -18,15 +18,15 @@
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="./transcript">Transcript</a>  
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="./products">Products</a>
-            </li>
+            </li> 
             <li class="nav-item">
                 <a class="nav-link" href="./calculator">Calculator</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="./gpa">GPA Simulator</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="{{route('products_list')}}">Products</a>
             </li>
 
 

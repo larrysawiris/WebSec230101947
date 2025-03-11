@@ -1,16 +1,16 @@
-<!DOCTYPE html> 
-<html lang="en"> 
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Basic Website - @yield('title')</title>
-    <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet"> 
+    <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
     <script src="{{ asset('js/bootstrap.bundle.min.js') }}"></script>
-</head> 
+</head>
 <body>
-    @include('layouts.menu') 
+    @include('layouts.menu')
     <div class="container">
         @yield('content')
     </div>
-</body> 
+</body>
 </html>
